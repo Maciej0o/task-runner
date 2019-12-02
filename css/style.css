@@ -9,10 +9,23 @@ $font-title: "Oswald", sans-serif;
 }
 
 body {
-  color: white;
+  color: black;
   font-family: "Noto Serif";
 }
 
+.container {
+  padding: 48px 20px;
+}
+
+.section-title {
+  font-size: 30px;
+  font-family: "Oswald";
+}
+
+.section-subtitle {
+  font-size: 15px;
+  color: #57606f;
+}
 /* Splash*/
 .splash {
   height: 100vh;
@@ -20,6 +33,7 @@ body {
   background-size: cover;
   position: relative;
   background-attachment: fixed;
+  color: #ffffff;
 }
 
 .splash-inner {
@@ -84,4 +98,29 @@ body {
   font-size: 20px;
   cursor: pointer;
   height: 60px;
+}
+
+/* Services */
+
+.services-title {
+  text-align: center;
+}
+
+.services-card {
+  text-align: center;
+}
+
+.services-card i {
+  padding: 15px;
+  font-size: 25px;
+  color: #eccc68;
+  height: 60px;
+  width: 60px;
+  border: solid 2px #eccc68;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.services-card p {
+  color: #57606f;
 }
