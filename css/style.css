@@ -26,6 +26,10 @@ body {
   font-size: 15px;
   color: #57606f;
 }
+
+.box-title {
+  text-align: center;
+}
 /* Splash*/
 .splash {
   height: 100vh;
@@ -50,7 +54,7 @@ body {
   text-align: center;
 }
 .row {
-  padding: 48px 0;
+  padding: 20px 0;
   flex: space-between;
 }
 
@@ -102,10 +106,6 @@ body {
 
 /* Services */
 
-.services-title {
-  text-align: center;
-}
-
 .services-card {
   text-align: center;
 }
@@ -123,4 +123,29 @@ body {
 
 .services-card p {
   color: #57606f;
+}
+
+/* portfolio */
+
+.portfolio {
+  background: #dfe4ea;
+}
+.card-portfolio {
+  padding: 0 0 20px 0;
+  background: white;
+  margin: 30px 30px;
+}
+
+.card-image img {
+  fit: cover;
+  width: 100%;
+  height: 300px;
+}
+
+.portfolio .card-body {
+  text-align: center;
+}
+
+.portfolio .card-body h5 {
+  font-size: 20px;
 }
