@@ -1,1 +1,181 @@
-/* Splash */
+$font-text: "Noto Serif", serif;
+$font-title: "Oswald", sans-serif;
+
+/* Global*/
+
+*, *::before, *::after {
+        box-sizing: border-box;
+}
+
+body {
+  /*color: black;*/
+  font-family: "Noto Serif";
+}
+
+.container {
+  padding: 48px 20px;
+}
+
+.section-title {
+  font-size: 30px;
+  font-family: "Oswald";
+}
+
+.section-subtitle {
+  font-size: 15px;
+  color: #57606f;
+}
+
+.box-title {
+  text-align: center;
+}
+/* Splash*/
+.splash {
+  height: 100vh;
+  background-image: url(https://i.postimg.cc/6qFR0Wxc/t-o.jpg);
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+  color: #ffffff;
+}
+
+.splash-inner {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  right: auto;
+  text-align: center;
+}
+
+.navi {
+  text-align: center;
+}
+.row {
+  padding: 20px 0;
+  flex: space-between;
+}
+
+.row h2 {
+  color: #ffa502;
+}
+
+.navigation ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.navigation h2 {
+  font-size: 30px;
+}
+.navigation a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 0 36px 0 0;
+    position: relative;
+    cursor: pointer;
+}
+
+.splash-inner h3 {
+  font-size: 35px;
+}
+
+.splash-inner h4 {
+  font-size: 45px;
+  font-family: "Oswald";
+}
+
+.splash-inner .btn {
+  padding: 20px;
+  background: #eccc68;
+  min-width: 140px;
+  margin: 24px auto 0 auto;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  height: 60px;
+}
+
+/* Services */
+
+.services-card {
+  text-align: center;
+}
+
+.services-card i {
+  padding: 15px;
+  font-size: 25px;
+  color: #eccc68;
+  height: 60px;
+  width: 60px;
+  border: solid 2px #eccc68;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.services-card p {
+  color: #57606f;
+}
+
+/* portfolio */
+
+.portfolio {
+  background: #dfe4ea;
+}
+.card-portfolio {
+  padding: 0 0 20px 0;
+  background: white;
+  margin: 30px 30px;
+}
+
+.card-image img {
+  fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.portfolio .card-body {
+  text-align: center;
+}
+
+.portfolio .card-body h5 {
+  font-size: 20px;
+}
+
+/* Footer */
+
+.page-footer ul {
+  list-style-type: none;
+  text-align: left;
+  padding-inline-start: 0;
+}
+.page-footer li {
+    display: inline;
+    font-size: 0;
+}
+
+.page-footer i {
+    font-size: 30px;
+    color: #ffffff;
+    background: #2f3542;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.page-footer .container {
+  padding: 5px 15px;
+}
+
+.footer-text {
+  padding: 30px 30px;
+}
